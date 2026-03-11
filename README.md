@@ -19,7 +19,8 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 ## How to update the mod
 
 1. Download the latest [release](https://github.com/fyureshi/FyureshitMod/releases) on the releases page of the mod
-2. Unzip it in your `C:\Users\[username]\AppData\Roaming\Balatro\Mods` folder and select `Replace all files` when it asks you to replace the files
+2. Unzip it in your `C:\Users\[username]\AppData\Roaming\Balatro\Mods` folder
+3. Select `Replace all files` when prompted
 
 ## Other
 
