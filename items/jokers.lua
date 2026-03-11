@@ -604,12 +604,12 @@ SMODS.Joker { -- Screaming Chicken On A Tree (Uncommon)
  - Δ: FOR THE DELTA (Legendary): 
  - Legalize Nuclear Bombs: Swag Messiah.
  - Shadow Wizard Money Gang (Rare): They love casting spells.
- - POOTIS/ENGAGE: Omg area 51
- - Dream: luck glitch lmao. 1 chance on 1.75 trillion to win the game at the end of the round
- - Markiplier (Uncommon): Was that the bite of 87? Gives +87 Chips.
+ - POOTIS/ENGAGE: Omg anime girls in area 51
+ - Dream: luck glitch lmao. 1 on 1.75 trillion chance to win the game at the end of the round
+ - Markiplier (Uncommon): Was that the bite of 87? Gives +87 Chips for each destroyed playing card.
  - Freddy Fazbear (Uncommon)
  - Bobr (Common): Bober Kurwa! Each played Clubs Card gives +15 Chips.
- - Sanic (Rare): 
+ - Sanic (Rare): GOTTA GO FAST
  - icecreamsandwich (Uncommon):
  - Airpod Shotty (Common): Sets Hands at 2, puts your Game Volume to 0%, gives +115 Mult
  - Camera Gun (asdf) (Uncommon): Oh wait, this isn't a camera.
@@ -617,7 +617,7 @@ SMODS.Joker { -- Screaming Chicken On A Tree (Uncommon)
  - Trains Kid (asdf) (Rare):
  - Perfect Cell with the J's (Rare):
  - Hotel Mario (Uncommon): Nice of the princess to invite us for a picnic, eh Luigi?
- - Sneakers O'Toole (Uncommon):
+ - Sneakers O'Toole (Uncommon): I'm not taking my sneakers off, I am Sneakers O'Toole.
  - John Trainer (name alternatives: Okino Trainer, Trainer-san) (Rare): 
  - Haru Urara (Uncommon): [Umamusume pool]
  - Lil' Spica (Commmon): [Umamusume pool]
@@ -653,7 +653,7 @@ SMODS.Joker { -- Screaming Chicken On A Tree (Uncommon)
  - Jordan Bardella (Common): As soon as equipped, sets your money to 0 and self-destructs (referencing th efact he never comes to the Parlement and actually doesn't do anything). Fake description too.
  - Emmanuel Macron (Uncommon): Gain $20 at the end of each round, but chance to destroy all Jokers except itself (reference to him dissolving the government a lot of times)
  - Joseph Stalin
- - Jeffrey Epstein (Rare): Well. Um. [EpsteinIsland pool]
+ - Jeffrey Epstein (Rare): Well. Um. After beating a Boss Blind, gain one Epstein Island consumable. [EpsteinIsland pool]
  - Donald Trump (Rare): [EpsteinIsland pool]
  - Bill Clinton (Rare): More like oral office am I right [EpsteinIsland pool]
  - Stephen Hawking (Rare): [EpsteinIsland pool]

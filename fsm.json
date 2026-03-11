@@ -3,7 +3,7 @@
   "name": "FyureshitMod",
   "display_name": "FyureshitMod",
   "author": ["Fyureshi"],
-  "description": "We're flipping the script, now in interdimensional poker. May contain silly memes and horse-girls.\nCredits: Fyureshi - Mod Author; Ink_Raffu - Ideas and Playtesting;ATLUS Sound Team - Persona Soundtrack",
+  "description": "We're flipping the script, now in interdimensional poker. May contain silly memes and horse-girls.\nCredits: Fyureshi - Mod Author; Ink_Raffu - Ideas and Playtesting; ATLUS Sound Team - Persona Soundtrack",
   "prefix": "sj",
   "prefixcomment":"ABOVE PREFIX IS ADDED TO E.G. LOCALIZATION!",
   "main_file": "core.lua",
