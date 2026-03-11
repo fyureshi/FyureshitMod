@@ -16,7 +16,7 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 ## Other
 
 ### Notes:
-- A lot of Jokers are planned to be released.
+- A lot of Jokers, Blinds, etc. are planned to be released.
 - As I am not much familiar with LUA, Google Gemini is used for bugfixing and optimization.
 - A French localization is included, but it is not complete.
 
