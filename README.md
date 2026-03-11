@@ -2,7 +2,7 @@
 
 A Balatro mod filled with OCs, memes and characters from various franchises. Expect chaos, silliness and maybe slightly unbalanced mechanics.
 
-![Banner](https://imgur.com/a/Q8TY4hl.png)
+![Banner](https://i.imgur.com/hVs2zOo.png)
 
 ## Dependencies
 
