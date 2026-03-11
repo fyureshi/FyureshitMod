@@ -18,6 +18,7 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 ### Notes:
 - A lot of Jokers are planned to be released.
 - As I am not much familiar with LUA, Google Gemini is used for bugfixing and optimization.
+- A French localization is included, but it is not complete.
 
 ### Special thanks:
 - [Yahiamice](https://twitch.tv/yahiamice) and the [Yahimod](https://github.com/Yahiamice/yahimod-balatro)
