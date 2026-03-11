@@ -650,7 +650,7 @@ SMODS.Joker { -- Screaming Chicken On A Tree (Uncommon)
  - Star Glitcher (Rare): Misprint but good
  - Euro value (Common): Misprint but can go into negatives and also affects chips and money
  - Marine Le Pen (Rare): Fake description which states a normal buff. Actually removes all enhancements from all score enhanced playing cards and all neighboring Jokers (because she's racist).
- - Jordan Bardella (Common): As soon as equipped, sets your money to 0 and self-destructs (referencing th efact he never comes to the Parlement and actually doesn't do anything). Fake description too.
+ - Jordan Bardella (Common): As soon as equipped, sets your money to 0 and self-destructs (referencing the fact he never comes to the European Parliament and actually doesn't do anything). Fake description too.
  - Emmanuel Macron (Uncommon): Gain $20 at the end of each round, but chance to destroy all Jokers except itself (reference to him dissolving the government a lot of times)
  - Joseph Stalin
  - Jeffrey Epstein (Rare): Well. Um. After beating a Boss Blind, gain one Epstein Island consumable. [EpsteinIsland pool]
