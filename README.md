@@ -13,7 +13,7 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 3. Download the latest [release](https://github.com/fyureshi/FyureshitMod/releases) on the releases page of the mod.
 4. Unzip it in your `C:\Users\[yourusername]\AppData\Roaming\Balatro\Mods` folder.
 
-## Miscellaneous
+## Other
 
 ### Notes:
 - A lot of Jokers are planned to be released.
