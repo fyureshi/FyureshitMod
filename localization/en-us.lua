@@ -80,7 +80,15 @@ j_sj_screamingchicken_inactive = {
         "{C:inactive}Game volume is not 100%.",
         "{C:inactive}Too quiet..."
     }
-}
+},
+j_sj_markiplier = {
+    name = "Markiplier",
+    text = {
+        "\"{C:inactive}WAS THAT THE BITE OF \'87?{}\"",
+        "Gives +87 chips for each destroyed playing card.",
+        "Currently {C:chips}+#2#{} Chips"
+    }
+},
         },
     Back = {
         b_sj_fyureshi_deck = {
@@ -88,7 +96,7 @@ j_sj_screamingchicken_inactive = {
             text = {
                 "Start with an {C:attention}Eternal{}, {C:dark_edition}Negative{}",
                 "{C:legendary}Fyureshi Prime{} and {C:attention}5{}",
-                "{C:dark_edition}Negative{} {C:dark_spectral}Black Holes{}"
+                "{C:dark_edition}Negative{} {C:dark_edition}Black Holes{}"
             }
         },
         b_sj_israel_deck = {

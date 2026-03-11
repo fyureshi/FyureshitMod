@@ -56,6 +56,12 @@ SMODS.Atlas({ key = "screamingchicken",
     py = 950
 })
 
+SMODS.Atlas({ key = "markiplier",
+    path = "j_markiplier.png",
+    px = 710,
+    py = 950
+})
+
 -- Below are the Jokers themselves and their scripts
 SMODS.Joker{ -- Fyureshi Prime (Legendary)
     key = "fyureshi_leg",
@@ -574,6 +580,59 @@ SMODS.Joker { -- Screaming Chicken On A Tree (Uncommon)
         end
     end
 }
+
+SMODS.Joker {
+    key = "markiplier",
+    config = { extra = { chips_gained = 87, total_chips = 0 } },
+    pos = { x = 0, y = 0 },
+    rarity = 2, -- Uncommon
+    cost = 8,
+    pools = {["Fyureshi_stuff"] = true, ["Meme cards"] = true},
+    blueprint_compat = true,
+    eternal_compat = true,
+    perishable_compat = true,
+    unlocked = true,
+    discovered = true,
+    atlas = 'markiplier',
+
+    loc_vars = function(self, info_queue, card)
+        -- Displays the current chip total in the Joker's description
+        return { vars = { card.ability.extra.chips_gained, card.ability.extra.total_chips } }
+    end,
+
+    calculate = function(self, card, context)
+        -- 1. Apply the Chips during the scoring phase
+        if context.joker_main and card.ability.extra.total_chips > 0 then
+            return {
+                message = '+' .. card.ability.extra.total_chips,
+                chip_mod = card.ability.extra.total_chips,
+                colour = G.C.CHIPS
+            }
+        end
+
+        -- 2. Detect when cards are destroyed and scale the Joker
+        -- 'context.remove_playing_cards' triggers when cards are permanently removed
+        if context.remove_playing_cards and not context.blueprint then
+            -- Count how many cards were actually removed in this instance
+            local destroyed_count = context.removed and #context.removed or 0
+            
+            if destroyed_count > 0 then
+                -- Scale by 87 for EVERY card destroyed
+                card.ability.extra.total_chips = card.ability.extra.total_chips + (card.ability.extra.chips_gained * destroyed_count)
+                
+                -- Juice up the card visually
+                card:juice_up(0.8, 0.8)
+                
+                return {
+                    message = 'BITE OF 87?!',
+                    colour = G.C.CHIPS,
+                    card = card
+                }
+            end
+        end
+    end
+}
+
 -- Joker ideas
 --[[
 - Umeshu Sigma (Legendary): (OC) All listed odds below 50% are put to 50%, and Wheel of Fortune now grants Negative instead of Foil/Holographic/Polychrome each time it succeeds. Celestial packs always contain Black Holes. If Fyureshi is present, a free Negative Black Hole is added to your consumables each time a Boss Blind is defeated (unless Perkeo is present bcuz that would be too OP).

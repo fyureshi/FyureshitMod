@@ -44,7 +44,7 @@ return {
             },
             j_sj_spoonful = {
                 name = "Cuillère Comiquement Grande",
-                text = {'\"{C:inactive}Yo mec je peux prendre un peu de glace?{}\"','\"{C:inactive}Juste une cuillère!{}\"',
+                text = {'\"{C:inactive}Yo mec j\'peux prendre un peu de glace?{}\"','\"{C:inactive}Juste une cuillère!{}\"',
                 "{C:attention}+3{} à la taille de la main, {C:blue}+1{} Main, {C:red}-1{} Défausse."},
             },
             j_sj_xeuh = {
