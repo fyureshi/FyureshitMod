@@ -1,6 +1,6 @@
 # FyureshitMod
 
-A Balatro mod filled with OCs, memes and characters from various franchises. Expect chaos, silliness and maybe slightly unbalanced mechanics.
+A Balatro mod filled with OCs, memes and characters from various franchises. Expect chaos, silliness, and maybe slightly unbalanced mechanics.
 
 ![Banner](https://i.imgur.com/hVs2zOo.png)
 
@@ -27,4 +27,4 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 - [Yahiamice](https://twitch.tv/yahiamice) and the [Yahimod](https://github.com/Yahiamice/yahimod-balatro)
 - VilleKokkarinen's [SampleJimbos](https://github.com/VilleKokkarinen/SampleJimbos) mod and video tutorials (thanks for the introduction to Balatro modding!)
 - My best friend, to whom I dedicate this mod to
-- And of course you, the player, for playing this mod.
+- And of course you, the player, for playing this mod (talk about a sappy line).
