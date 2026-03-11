@@ -1,0 +1,22 @@
+-- Objects (name of the consumable category) will go here!
+--[[
+- New category of consumables: Objects
+ - Camellite Ore (Object): if 3 are present in your inventory, use to create a Refined Camellite Ore Joker. Doesn't take up space. If the Joker is already present, using it will instead create a STAR SEED.
+ - STAR SEED (Object): Using this with PLANET//SHAPER, NUCLEAR-STAR and crystallized equipped destroys itself and these Jokers and creates Δ: FOR THE DELTA.
+ - Blue Skull (Object): Synergy with Yahimod's V1, only appears if it is present in your Jokers. Multiplies its Chips Multiplier by X1.5.
+ - Red Skull (Object): Synergy with Yahimod's V1, only appears if it is present in your Jokers. Multiplies its Mult Multiplier by X1.5.
+ - Stand Arrow (Object)
+ - Requiem Arrow (Object)
+ - Spartan Kick (Object): reduces blind score. THIS! IS! SPARTA!
+ - Epstein Island (Object): spawns a random Epstein gang Joker
+ - Xbox Controller (Object): Spawns the OceanGate Titan Joker when used
+ - Evoker (Object)
+ - Steel Ball (Object)
+ - Red Chaos Emerald (Object)
+ - Green Chaos Emerald (Object)
+ - Cyan Chaos Emerald (Object)
+ - Blue Chaos Emerald (Object)
+ - Yellow Chaos Emerald (Object)
+ - Purple Chaos Emerald (Object)
+ - White Chaos Emerald (Object)
+]]
