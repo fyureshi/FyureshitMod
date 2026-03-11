@@ -1,6 +1,6 @@
 # FyureshitMod
 
-A Balatro mod filled with OCs, memes and characters from various franchises. Expect chaos, and maybe slightly unbalanced mechanics.
+A Balatro mod filled with OCs, memes and characters from various franchises. Expect chaos, silliness and maybe slightly unbalanced mechanics.
 
 ## Dependencies
 
