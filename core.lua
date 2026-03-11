@@ -55,3 +55,14 @@ function SMODS.Sound:get_current_music()
     
     return 'music1' -- Catch-all for the Main Menu and other screens
 end
+
+local creditspage = {
+        "Fyureshi",
+        "Mod Author",
+		"",
+		"Ink_Raffu, seigneurlefou",
+        "Ideas, Playtesting",
+		"",
+		"ATLUS Sound Team",
+        "Persona soundtrack",
+    }
