@@ -89,7 +89,15 @@ j_sj_markiplier = {
         "Currently {C:chips}+#2#{} Chips"
     }
 },
+j_sj_blueshell = {
+    name = "Blue Shell",
+    text = {
+        "If your Discards hit 0, reduce the required score",
+        "of the current blind by half.",
+        "Cannot be debuffed by the Raffu boss."
         },
+    },
+},
     Back = {
         b_sj_fyureshi_deck = {
             name = "Fyureshi Deck",
