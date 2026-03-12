@@ -25,12 +25,12 @@ return {
             j_sj_symbolirudolf = {
                 name = "Symboli Rudolf",
                 text = {
-                    '\"{C:inactive}Let us create a world where all Umamusume can live in bliss.{}\"',
-                    'Retrigger all {C:enhanced}Enhanced{} aces, and adds {X:red,C:white}X1{} to Mult',
-                    'each consecutive time a {C:attention}blind {}is beaten,',
-                    '{X:red,C:white}X5{} for {C:legendary}boss blinds{}, {C:red}resets{} on skip.',
-                    'Currently {X:red,C:white} X#1# {}',
-                    '{C:red}Resets {}and sets your {C:money}money {}to 0 for any {C:uncommon}shop reroll{}.'
+                    '\"{C:inactive}Créons un monde où tous les Umamusume peuvent vivre dans la joie.{}\"',
+                    'Rejoue tous les As {C:enhanced}Améliorés{}, et ajoute {X:red,C:white}X1{} au Mult',
+                    'à chaque victoire consécutive contre une {C:attention}Blinde{}',
+                    '{X:red,C:white}X5{} pour chaque {C:legendary}Blinde Boss{}, {C:red}se réinitialise{} en passant une Blinde.',
+                    'Présentement {X:red,C:white} X#1# {}',
+                    '{C:red}Se réinitialise {}et met votre {C:money}argent {}à 0 pour tout {C:uncommon}renouvellement du magasin{}.'
 
 
                 }
@@ -50,9 +50,9 @@ return {
             j_sj_xeuh = {
                 name = "XenoverNate",
                 text = {'\"{C:inactive}Suce moi le ch*bre Raphaël avec tes fautes de p*dale.{}\"',
-                "{C:green}1/4{} chance to eat your {X:mult,C:white}Mult{} and divide it by {C:red}2{} each played hand.",
-                "{C:green}1/6{} chance to become {X:enhanced,C:white}Polychrome{} at the end of each round.",
-                "This fatass takes up {C:attention}2{} Joker slots."
+                "{C:green}1/4{} chance de manger le {X:mult,C:white}Mult{} et de le diviser par {C:red}2{} à chaque main jouée.",
+                "{C:green}1/6{} chance de devenir {X:enhanced,C:white}Polychrome{} à la fin de chaque tour.",
+                "Cet énorme idiot prend {C:attention}2{} emplacements de Joker."
             }
             },
             j_sj_kitasanblack = {
