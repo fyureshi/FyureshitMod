@@ -68,7 +68,7 @@ return {
             j_sj_screamingchicken_active = {
     name = "Screaming Chicken On A Tree",
     text = {
-        "{C:red}X#1#{} Mult.",
+        "{X:red,C:white}X#1#{} Mult.",
         "{C:red}Game volume is at 100%.",
         "{C:red}Prepare your ears."
     }
@@ -86,19 +86,27 @@ j_sj_markiplier = {
     name = "Markiplier",
     text = {
         "\"{C:inactive}WAS THAT THE BITE OF \'87?{}\"",
-        "Gives +87 chips for each destroyed playing card.",
+        "Gives {C:chips}+87{} Chips for each destroyed playing card.",
         "Currently {C:chips}+#2#{} Chips"
     }
 },
 j_sj_blueshell = {
     name = "Blue Shell",
     text = {
-        "If your Discards hit 0, reduce the required score",
-        "of the Boss Blind by half.",
+        "If your Discards hit {C:attention}0{}, reduce the required score",
+        "of the Boss Blind by {C:attention}half{}.",
         "Cannot be debuffed by the Raffu boss."
         },
     },
+j_sj_redshell = {
+    name = "Red Shell",
+    text = {
+        "If your played hand contains at least one {C:attention}Face Card{},",
+        "Gives {C:red}+20{} Mult.",
+        "Cannot be debuffed by the Raffu boss."
+        }
 },
+        },
     Back = {
         b_sj_fyureshi_deck = {
             name = "Fyureshi Deck",

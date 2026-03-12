@@ -68,6 +68,12 @@ SMODS.Atlas({ key = "blueshell",
     py = 950
 })
 
+SMODS.Atlas({ key = "redshell",
+    path = "j_redshell.png",
+    px = 710,
+    py = 950
+})
+
 -- Below are the Jokers themselves and their scripts
 SMODS.Joker{ -- Fyureshi Prime (Legendary)
     key = "fyureshi_leg",
@@ -639,7 +645,7 @@ SMODS.Joker { -- Markiplier (Uncommon)
     end
 }
 
-SMODS.Joker {
+SMODS.Joker { -- Blue Shell (Uncommon)
     key = "blueshell",
     config = { extra = { used_this_round = false } },
     pos = { x = 0, y = 0 },
@@ -681,8 +687,49 @@ SMODS.Joker {
                 }))
                 
                 return {
-                    message = "TARGET LOCKED!",
+                    message = "BLUE SHELL!",
                     colour = G.C.BLUE
+                }
+            end
+        end
+    end
+}
+
+SMODS.Joker {
+    key = "redshell",
+    config = { extra = { mult = 20 } },
+    pos = { x = 0, y = 0 },
+    rarity = 1, -- Common
+    cost = 4,
+    pools = {["Meme cards"] = true, ["Mario_stuff"] = true},
+    blueprint_compat = true,
+    eternal_compat = true,
+    perishable_compat = true,
+    unlocked = true,
+    discovered = true,
+    atlas = 'redshell',
+
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.mult } }
+    end,
+
+    calculate = function(self, card, context)
+        -- The Red Shell "locks on" to a target. 
+        -- It triggers if the hand contains a Face card or Ace.
+        if context.joker_main then
+            local target_hit = false
+            for i=1, #context.full_hand do
+                if context.full_hand[i]:is_face() or context.full_hand[i]:get_id() == 14 then
+                    target_hit = true
+                    break
+                end
+            end
+
+            if target_hit then
+                return {
+                    message = '+' .. card.ability.extra.mult .. ' Mult',
+                    mult_mod = card.ability.extra.mult,
+                    colour = G.C.MULT
                 }
             end
         end
@@ -783,4 +830,6 @@ SMODS.Joker {
  - Vergil
  - Dante
  - Kratos: ZEUS! YOUR SON HAS RETURNED!
+ - Arthur Morgan
+ - Dutch van der Linde
 ]]
