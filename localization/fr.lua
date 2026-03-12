@@ -64,7 +64,48 @@ return {
                         "{C:inactive}(Présentement {}{C:chips}+#2#{}{C:inactive} Jetons){}",
                         "{C:inactive}(Amitié: #3#/#4# mains jouées)"
                     }
-            }
+            },
+            j_sj_screamingchicken_active = {
+    name = "Poulet Hurlant Sur Un Arbre",
+    text = {
+        "{X:red,C:white}X#1#{} Mult.",
+        "{C:red}Le volume du jeu est à 100%.",
+        "{C:red}Préparez vos oreilles."
+        },
+    },
+j_sj_screamingchicken_inactive = {
+    name = "Poulet Hurlant Sur Un Arbre",
+    text = {
+        "{C:inactive}X#1#{} {C:inactive}Mult.",
+        "{C:inactive}Le volume du jeu n'est pas à 100%.",
+},
+},
+j_sj_markiplier = {
+                name = "Markiplier",
+                text = {
+                    "\"{C:inactive}C'ÉTAIT LA MORSURE DE '87?{}\"",
+                    "Donne {C:chips}+87{} Jetons pour chaque carte détruite.",
+                    "Présentement {C:chips}+#2#{} Jetons"
+        },
+    },
+j_sj_blueshell = {
+                name = "Carapace Bleue",
+                text = {
+                    "Si vos Défausses atteignent {C:attention}0{}, réduisez le score requis",
+                    "de la Blinde Boss de {C:attention}moitié{}.",
+                     "{C:red}Ne peut pas être désactivé par le boss Raffu."
+                },
+            },
+            j_sj_redshell = {
+                name = "Carapace Rouge",
+                text = {
+                    "Si votre main jouée contient au moins une {C:attention}Carte Figure{},",
+                    "Donne {C:red}+20{} Mult.",
+                     "{C:red}Ne peut pas être désactivé par le boss Raffu."
+
+
+},
+            },
         },
     Back = {
         b_sj_fyureshi_deck = {
