@@ -73,6 +73,7 @@ return {
         "{C:red}Prepare your ears."
     }
 },
+
 j_sj_screamingchicken_inactive = {
     name = "Screaming Chicken On A Tree",
     text = {
@@ -93,7 +94,7 @@ j_sj_blueshell = {
     name = "Blue Shell",
     text = {
         "If your Discards hit 0, reduce the required score",
-        "of the current blind by half.",
+        "of the Boss Blind by half.",
         "Cannot be debuffed by the Raffu boss."
         },
     },
