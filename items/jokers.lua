@@ -643,75 +643,47 @@ SMODS.Joker {
     key = "blueshell",
     config = { extra = { used_this_round = false } },
     pos = { x = 0, y = 0 },
-    rarity = 2, -- Uncommon
+    rarity = 2,
     cost = 6,
-    -- Notice: "Fyureshi_stuff" is omitted here so the Raffu boss cannot disable it!
     pools = {["Meme cards"] = true, ["Mario_stuff"] = true}, 
-    blueprint_compat = false, -- Kept false because cutting the blind twice is a bit too broken, even for a meme mod
+    blueprint_compat = false,
     eternal_compat = true,
     perishable_compat = true,
-    unlocked = true,
-    discovered = true,
+    unlocked = true, discovered = true,
     atlas = 'blueshell',
 
-    loc_vars = function(self, info_queue, card)
-        return { vars = {} }
-    end,
-
     calculate = function(self, card, context)
-        -- 1. Reset the shell's active state at the start of any blind
+        -- Reset flag at the start of the blind
         if context.setting_blind and not context.blueprint then
             card.ability.extra.used_this_round = false
-            
-            -- Edge Case: If the player somehow has 0 MAX discards, trigger it immediately upon selecting the Boss
-            if context.blind.boss and G.GAME.current_round.discards_left <= 0 then
+        end
+
+        -- Trigger when the player clicks "Discard" on their very last discard
+        if context.pre_discard and G.GAME.blind and G.GAME.blind.boss and not card.ability.extra.used_this_round then
+            if G.GAME.current_round.discards_left <= 1 then -- This is the final discard being used
+                
                 card.ability.extra.used_this_round = true
+                
+                -- We use a slight delay so the animation looks better
                 G.E_MANAGER:add_event(Event({
                     trigger = 'after',
-                    delay = 0.5,
+                    delay = 0.4,
                     func = function()
-                        -- Halve the blind requirement
+                        -- Halve the boss HP
                         G.GAME.blind.chips = math.max(1, math.floor(G.GAME.blind.chips / 2))
                         G.GAME.blind.chip_text = number_format(G.GAME.blind.chips)
                         
-                        -- Visual flair
+                        -- Sound and juice
+                        play_sound('timpani', 1.2, 1)
                         card:juice_up(0.8, 0.8)
-                        play_sound('timpani') -- Standard impact sound
                         return true
                     end
                 }))
-            end
-        end
-
-        -- 2. The main trigger: Checking when you use up your discards
-        if context.discard and not context.blueprint then
-            -- Check if it's a Boss Blind, we haven't launched the shell yet, and discards just hit 0
-            if G.GAME.blind and G.GAME.blind.boss and not card.ability.extra.used_this_round then
-                if G.GAME.current_round.discards_left == 0 then
-                    
-                    -- Lock it out so it doesn't trigger multiple times
-                    card.ability.extra.used_this_round = true
-                    
-                    G.E_MANAGER:add_event(Event({
-                        trigger = 'after',
-                        delay = 0.5,
-                        func = function()
-                            -- Halve the blind requirement dynamically mid-round
-                            G.GAME.blind.chips = math.max(1, math.floor(G.GAME.blind.chips / 2))
-                            G.GAME.blind.chip_text = number_format(G.GAME.blind.chips)
-                            
-                            card:juice_up(0.8, 0.8)
-                            play_sound('timpani') 
-                            return true
-                        end
-                    }))
-                    
-                    return {
-                        message = "BLUE SHELL!",
-                        colour = G.C.BLUE,
-                        card = card
-                    }
-                end
+                
+                return {
+                    message = "TARGET LOCKED!",
+                    colour = G.C.BLUE
+                }
             end
         end
     end
