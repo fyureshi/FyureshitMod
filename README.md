@@ -30,7 +30,7 @@ A Balatro mod filled with OCs, memes and characters from various franchises. Exp
 - A French localization is included, but it is not complete.
 
 ### Special thanks:
-- Yahiamice (Go follow him on [YouTube]((https://www.youtube.com/@YahiamiceLIVE)) and [Twitch!](https://twitch.tv/yahiamice)) and the [Yahimod](https://github.com/Yahiamice/yahimod-balatro) (horse walks in)
+- Yahiamice (Go follow him on [YouTube](https://www.youtube.com/@YahiamiceLIVE) and [Twitch!](https://twitch.tv/yahiamice)) and the [Yahimod](https://github.com/Yahiamice/yahimod-balatro) (horse walks in)
 - [VilleKokkarinen](https://github.com/VilleKokkarinen)'s [SampleJimbos](https://github.com/VilleKokkarinen/SampleJimbos) mod and video tutorials (thanks for the introduction to Balatro modding!)
 - My best friend, to whom I dedicate this mod to
 - And of course you, the player, for playing this mod (talk about a sappy line).
