@@ -695,7 +695,7 @@ SMODS.Joker { -- Blue Shell (Uncommon)
     end
 }
 
-SMODS.Joker {
+SMODS.Joker { -- Red Shell (Common)
     key = "redshell",
     config = { extra = { mult = 20 } },
     pos = { x = 0, y = 0 },
@@ -746,7 +746,7 @@ SMODS.Joker {
  - Izanagi-no-Okami Picaro (Legendary): Disables all Jokers for 2 turns (Debilitate + Concentrate), on the third, re-enables them, permanently multiplies its own base X3 Mult by 3 for each Joker in the deck, "unleashes" it (Myriad Truths) and retriggers all played Spades face cards and Spades Aces three times, then restarts the cycle.
  - Narrowest Car (Common): Gives +50 Chips. Loses 10 Chips of power per round played. When it hits 0 Chips, it is destroyed.
  - DaBaby Car: Lezgoooo
- - Roddy Ricch Goes To The Burger King Drive-Thru And Gets Diarrhea
+ - Roddy Ricch Goes To The Burger King Drive-Thru And Gets Diarrhea (Uncommon): 
  - Lebron James (Legendary)
  - Senator Armstrong (Rare)
  - Jetstream Sam (Uncommon)
@@ -832,4 +832,11 @@ SMODS.Joker {
  - Kratos: ZEUS! YOUR SON HAS RETURNED!
  - Arthur Morgan
  - Dutch van der Linde
+ - Cat Joker: Has a chance to meow. If you press a certain key when it meows (QTE), gains +1 Mult
+ - The Damn Train: gta joke.
+ - Ink_Raffu (Uncommon): Play Balatro ranked: actively modifies required score scaling depending on if you beat the blinds easily or not
+ - pascoolpointio (Uncommon): 1/3 chance to ragequit the game if Blind is not beaten in one hand. 
+ - royalXIII (Uncommon): gain X5 Mult but automatically buys (consequently spends your money) all non-Joker cards in the shop
+ - Fyureshi (Legendary) (do not mistake with Fyureshi Prime, they are not the same Jokers): Spectral boosters appear 6X more often, and will always contain a Grim. However, you cannot buy Playing Cards or Playing Card Boosters from the shop while this Joker is in your deck.
+ - 
 ]]

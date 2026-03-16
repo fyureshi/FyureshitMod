@@ -38,7 +38,6 @@ SMODS.Blind { name = "boss_raffu",
     end,
 }
 
--- Register the Blind using Steamodded
 SMODS.Blind({ name = 'the_shadow',
     key = 'the_shadow',
     atlas = 'fyublinds',
