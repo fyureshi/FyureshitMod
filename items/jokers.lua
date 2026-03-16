@@ -838,5 +838,5 @@ SMODS.Joker { -- Red Shell (Common)
  - pascoolpointio (Uncommon): 1/3 chance to ragequit the game if Blind is not beaten in one hand. 
  - royalXIII (Uncommon): gain X5 Mult but automatically buys (consequently spends your money) all non-Joker cards in the shop
  - Fyureshi (Legendary) (do not mistake with Fyureshi Prime, they are not the same Jokers): Spectral boosters appear 6X more often, and will always contain a Grim. However, you cannot buy Playing Cards or Playing Card Boosters from the shop while this Joker is in your deck.
- - 
+ -
 ]]

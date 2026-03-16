@@ -1,0 +1,18 @@
+{
+    "Lua.diagnostics.globals": [
+        "SMODS",
+        "localize",
+        "play_sound",
+        "G",
+        "ease_dollars",
+        "number_format",
+        "Event",
+        "update_hand_text",
+        "pseudorandom",
+        "pseudorandom_element",
+        "pseudoseed",
+        "card_eval_status_text",
+        "to_big",
+        "create_card"
+    ]
+}
