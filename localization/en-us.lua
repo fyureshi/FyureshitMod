@@ -106,7 +106,15 @@ j_sj_redshell = {
         "Cannot be debuffed by the Raffu boss."
         }
 },
+j_sj_narrowestcar = {
+    name = "Narrowest Car",
+    text = {
+        "Gives {C:chips}+50{} Chips at the start of each round,",
+        "but lose {C:chips}-10{} Chips at the end of each round.",
+        "Cannot be debuffed by the Raffu boss."
+    }
         },
+    },
     Back = {
         b_sj_fyureshi_deck = {
             name = "Fyureshi Deck",

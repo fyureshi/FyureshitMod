@@ -74,6 +74,12 @@ SMODS.Atlas({ key = "redshell",
     py = 950
 })
 
+SMODS.Atlas({ key = "narrowestcar",
+    path = "j_narrowestcar.png",
+    px = 710,
+    py = 950
+})
+
 -- Below are the Jokers themselves and their scripts
 SMODS.Joker{ -- Fyureshi Prime (Legendary)
     key = "fyureshi_leg",
@@ -730,6 +736,65 @@ SMODS.Joker { -- Red Shell (Common)
                     message = '+' .. card.ability.extra.mult .. ' Mult',
                     mult_mod = card.ability.extra.mult,
                     colour = G.C.MULT
+                }
+            end
+        end
+    end
+}
+
+SMODS.Joker { -- Narrowest Car (Common)
+    key = "narrowestcar",
+    config = { extra = { chips = 50, loss = 10 } },
+    pos = { x = 0, y = 0 },
+    rarity = 1, -- Common
+    cost = 4,
+    pools = {["Fyureshi_stuff"] = true, ["Meme cards"] = true},
+    blueprint_compat = true,
+    eternal_compat = false, -- Can't be eternal since it needs to destroy itself natively
+    perishable_compat = false,
+    unlocked = true,
+    discovered = true,
+    atlas = "narrowestcar", -- Remember to define this Atlas!
+
+    loc_vars = function(self, info_queue, card)
+        return { vars = { card.ability.extra.chips, card.ability.extra.loss } }
+    end,
+
+    calculate = function(self, card, context)
+        -- Scoring Phase
+        if context.joker_main and card.ability.extra.chips > 0 then
+            return {
+                message = '+' .. card.ability.extra.chips,
+                chip_mod = card.ability.extra.chips,
+                colour = G.C.CHIPS
+            }
+        end
+
+        -- End of Round Degradation & Destruction
+        if context.end_of_round and not context.blueprint and not context.repetition and not context.individual then
+            card.ability.extra.chips = card.ability.extra.chips - card.ability.extra.loss
+            
+            if card.ability.extra.chips <= 0 then
+                -- Self-destruct sequence
+                G.E_MANAGER:add_event(Event({
+                    func = function()
+                        play_sound('tarot1')
+                        card.T.r = -0.2
+                        card:juice_up(0.3, 0.4)
+                        card.states.collide.can = false
+                        card:set_ability(G.P_CENTERS.j_joker)
+                        card:remove()
+                        card = nil
+                        return true
+                    end
+                })) 
+                return {
+                    message = "Destroyed!"
+                }
+            else
+                return {
+                    message = '-' .. card.ability.extra.loss .. ' Chips',
+                    colour = G.C.CHIPS
                 }
             end
         end
