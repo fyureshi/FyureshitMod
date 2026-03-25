@@ -5,14 +5,14 @@
  - STAR SEED (Object): Using this with PLANET//SHAPER, NUCLEAR-STAR and crystallized equipped destroys itself and these Jokers and creates Δ: FOR THE DELTA.
  - Blue Skull (Object): Synergy with Yahimod's V1, only appears if it is present in your Jokers. Multiplies its Chips Multiplier by X1.5.
  - Red Skull (Object): Synergy with Yahimod's V1, only appears if it is present in your Jokers. Multiplies its Mult Multiplier by X1.5.
- - Stand Arrow (Object)
- - Requiem Arrow (Object)
+ - Stand Arrow (Object): 
+ - Requiem Arrow (Object): 
  - Spartan Kick (Object): reduces blind score. THIS! IS! SPARTA!
  - Epstein Island (Object): spawns a random Epstein gang Joker
- - Xbox Controller (Object): Spawns the OceanGate Titan Joker when used
- - Evoker (Object)
- - Steel Ball (Object)
- - Red Chaos Emerald (Object)
+ - Xbox Controller (Object): Spawns the OceanGate Titan Joker when used. 
+ - Evoker (Object): Summon a Persona.
+ - Steel Ball (Object): Infinite Rotation thing
+ - Red Chaos Emerald (Object) - Emeralds are always Negative and cannot be used themselves
  - Green Chaos Emerald (Object)
  - Cyan Chaos Emerald (Object)
  - Blue Chaos Emerald (Object)
