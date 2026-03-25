@@ -109,9 +109,8 @@ j_sj_redshell = {
 j_sj_narrowestcar = {
     name = "Narrowest Car",
     text = {
-        "Gives {C:chips}+50{} Chips at the start of each round,",
+        "Gives {C:chips}+50{} Chips,",
         "but lose {C:chips}-10{} Chips at the end of each round.",
-        "Cannot be debuffed by the Raffu boss."
     }
         },
     },

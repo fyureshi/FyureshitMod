@@ -809,7 +809,6 @@ SMODS.Joker { -- Narrowest Car (Common)
  - Arsène (Rare): Does nothing on its own. If Ren Amamiya is present, disables the Boss Blind's effect. If a The World Tarot Card is used, evolves into Satanael.
  - Satanael (Legendary): Does nothing on its own. If Ren Amamiya is present, disables the Boss Blind's effect and gives X21 Mult.
  - Izanagi-no-Okami Picaro (Legendary): Disables all Jokers for 2 turns (Debilitate + Concentrate), on the third, re-enables them, permanently multiplies its own base X3 Mult by 3 for each Joker in the deck, "unleashes" it (Myriad Truths) and retriggers all played Spades face cards and Spades Aces three times, then restarts the cycle.
- - Narrowest Car (Common): Gives +50 Chips. Loses 10 Chips of power per round played. When it hits 0 Chips, it is destroyed.
  - DaBaby Car: Lezgoooo
  - Roddy Ricch Goes To The Burger King Drive-Thru And Gets Diarrhea (Uncommon): 
  - Lebron James (Legendary)
